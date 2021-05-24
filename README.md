@@ -18,13 +18,22 @@ collabor = cosine_similarity(mv_to_user)
 ~~~
 
 <img width="600" alt="cosine_sim" src="https://user-images.githubusercontent.com/67997760/119283533-58645580-bc78-11eb-8a91-cecaf4753a2c.png">  
-cosine similarity의 경우 1에 가까울 수록 유사하다고 할 수 있다.   
-Output    
+cosine similarity의 경우 1에 가까울 수록 유사하다고 할 수 있다.     
+Output : 가디언즈 오브 갤럭시를 검색한 결과.     
 <img width="300" alt="스크린샷 2021-05-24 오전 9 51 39" src="https://user-images.githubusercontent.com/67997760/119282705-a4fa6180-bc75-11eb-83b7-38c7806a1329.png">
 
 
-
 ## Latent factor Collaborative Filtering
+SVD(Singular Value Decomposition)을 활용.  
+다수의 feature로 인한 다차원 데이터에서 차원(Dimension)을 축소해 행렬의 잠재요인을 찾아낸다.    
+A = UΣVT  
+![240px-Singular_value_decomposition_visualisation svg](https://user-images.githubusercontent.com/67997760/119285427-f9eda600-bc7c-11eb-966b-217d05fed34b.png)
+
+~~~ python
+from sklearn.decomposition import TruncatedSVD
+SVD = TruncatedSVD(n_component=12)
+~~~
+
 
 ## Latent factor Collaborative Filtering part2
 

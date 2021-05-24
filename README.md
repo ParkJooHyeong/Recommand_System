@@ -16,7 +16,7 @@ Dataset에서 rating(평점)을 활용해 입력된 영화와 평점이 유사�
 즉 Item based에서 Item을 rating으로 가정하고 접근한다.    
 유사한 데이터를 수치적으로 얻기 위하여 코사인 유사도(cosine similarity)를 활용한다.     
 
-~~~ 
+~~~ python
 from sklearn.metrics.pairwise import cosine_similarity
 collabor = cosine_similarity(mv_to_user)
 ~~~

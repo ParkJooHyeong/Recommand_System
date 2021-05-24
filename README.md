@@ -21,7 +21,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 collabor = cosine_similarity(mv_to_user)
 ~~~
 
-<img width="300" alt="cosine_sim" src="https://user-images.githubusercontent.com/67997760/119283533-58645580-bc78-11eb-8a91-cecaf4753a2c.png">  
+<img width="600" alt="cosine_sim" src="https://user-images.githubusercontent.com/67997760/119283533-58645580-bc78-11eb-8a91-cecaf4753a2c.png">  
 cosine similarity의 경우 1에 가까울 수록 유사하다고 할 수 있다.   
 Output    
 <img width="300" alt="스크린샷 2021-05-24 오전 9 51 39" src="https://user-images.githubusercontent.com/67997760/119282705-a4fa6180-bc75-11eb-83b7-38c7806a1329.png">

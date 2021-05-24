@@ -51,7 +51,13 @@ SVD = TruncatedSVD(n_components=12) # n_components -> 얻고자 하는 상위 �
 아이템 기반 추천 결과와 확연하게 다른 결과를 보였다.
 
 
-## Latent factor Collaborative Filtering part2
+## Latent factor Collaborative Filtering part2  
+앞서 영화 이름과 rating을 가지고 영화를 추천한 방법과 다르게 유저를 기반으로, 해당 유저의 평점 데이터를 활용해 영화를 추천해 본다.      
+User ID x Movie ID (User의 Movie 평점(rating) 정보)
+<img width="700" alt="스크린샷 2021-05-24 오후 3 02 33" src="https://user-images.githubusercontent.com/67997760/119303691-24515a80-bca1-11eb-9d50-6575b0ebbbfb.png">  
+scipy에서는 SVD분해를 통해 
+
+
 
 ------------
 ### Reference

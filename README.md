@@ -5,7 +5,7 @@ SVD(Singular Value Decomposition), Machine Learning, Deep Learning 등 다양한
 1. 컨텐츠 기반 협업 필터링(Collaborative Filtering)
 > Input : 영화 이름
 2. 잠재요인 협업 필터링(Latent factor Collaborative Filtering)
-> matrix factorization(SVD)
+> matrix factorization(SVD)     
 > Input : 영화 이름
 3. 잠재요인 협업 필터링 part2 (Latent factor Collaborative Filtering)
 > Input : User ID

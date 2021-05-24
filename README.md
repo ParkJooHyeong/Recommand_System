@@ -41,7 +41,7 @@ VT : transpose of n×n orthogonal matrix
 > Python에서 sklearn 라이브러리를 활용해 특이값 분해를 수행할 수 있다.   
 ~~~ python
 from sklearn.decomposition import TruncatedSVD
-SVD = TruncatedSVD(n_component=12) # n_components -> 얻고자 하는 상위 특이값 개수
+SVD = TruncatedSVD(n_components=12) # n_components -> 얻고자 하는 상위 특이값 개수
 ~~~
 특이값 분해를 완료하면 영화의 개수 x n_component(12개) 의 특이값 행렬을 얻을 수 있다.   
 이제는 각 영화와 12개의 특이 값 사이의 Correlation을 가지고 영화를 추천해 준다.      

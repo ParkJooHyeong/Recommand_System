@@ -15,9 +15,12 @@ SVD(Singular Value Decomposition), Machine Learning, Deep Learning 등 다양한
 Dataset에서 rating(평점)을 활용해 입력된 영화와 평점이 유사한 영화를 뽑아서 추천해 본다.   
 즉 Item based에서 Item을 rating으로 가정하고 접근한다.    
 유사한 데이터를 수치적으로 얻기 위하여 코사인 유사도(cosine similarity)를 활용한다.     
+
 '''python    
 from sklearn.metrics.pairwise import cosine_similarity
-'''      
+collabor = cosine_similarity(mv_to_user)
+'''
+
 ![image](https://user-images.githubusercontent.com/67997760/119282774-dbd07780-bc75-11eb-9836-ee8a44e55274.png)
 cosine similarity의 경우 1에 가까울 수록 유사하다고 할 수 있다.   
 Output    
@@ -31,6 +34,6 @@ Output
 
 ------------
 ### Reference
-Dataset : https://www.kaggle.com/rounakbanik/the-movies-dataset
-Blog : https://lsjsj92.tistory.com/
+Dataset : https://www.kaggle.com/rounakbanik/the-movies-dataset   
+Blog : https://lsjsj92.tistory.com/   
 Solution : https://www.kaggle.com/rounakbanik/movie-recommender-systems
